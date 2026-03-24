@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .number_p{
+            color: blue;
+            border: none;
+            border-bottom: 1px solid blue;
+            font-size: medium;
+            transition: font-size 1s ease, color 1s ease;
+        }
+        .number_p:hover{
+            color: blue;
+            font-size: large;
+        }
+
+
+        .back_button,
+        .next_button{
+            color: black;
+            border: 1px solid black;
+            padding: 8px 16px;
+            border-radius: 2px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .strech{
+            margin-top: auto;
+            margin-left: 10px;
+            border: none;
+            background-color: green;
+            align-content: center;
+            width: 55px;
+            height: 45px;
+            padding: 8px 16px;
+            
+        }
+        .strech:hover{
+            width: 100px;
+            height: 60px;
+            transition: width 0.5s ease, height 0.5s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pagination</h1>
+  <button class="back_button">Back</button>  
+  <button class="number_p">1</button> 
+  <button class="number_p">2</button> 
+  <button class="number_p">3</button> 
+  <button class="number_p">4</button> 
+  <button class="number_p">5</button> 
+  <button class="next_button">Next</button> 
+
+  <h1>Strech</h1>
+  <div class="strech">
+    <h3 style="margin-left: 2px;">strech</h3>
+  </div>
+</body>
+</html>
