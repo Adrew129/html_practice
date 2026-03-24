@@ -1,0 +1,28 @@
+.thumbnail{
+            width: 300px;
+            display: block;
+            
+                    }
+.video-title{
+          font-size: 18px;
+          width: 300px;
+        }
+.author{
+    font-size: 14px;
+    
+}
+
+.views{
+    font-size: 12px;
+    
+}
+.previous-video{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.search-tab{
+    display:block;
+}
