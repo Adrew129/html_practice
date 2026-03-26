@@ -1,0 +1,49 @@
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0px;
+}
+
+
+.logo{
+    
+    text-align: center;
+
+}
+.word_google{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.search-tab{
+    width:400px;          /* 👈 inafanya iwe wide */
+    padding:12px 20px;    /* 👈 space ndani ya input */
+    border-radius:25px;   /* 👈 inafanya iwe round */
+    border:1px solid #ccc;
+    outline:none;
+    font-size:16px;
+    display: block;
+
+}
+
+
+.subtitle{
+        display: block;
+        font-size: 20px;
+        margin-top: 30px;
+
+}
+.search_button,
+.lucky_button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    cursor: pointer;
+}
